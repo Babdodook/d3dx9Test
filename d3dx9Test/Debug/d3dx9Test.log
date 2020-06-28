@@ -1,5 +1,0 @@
-﻿  Game.cpp
-  Triangle.cpp
-C:\Users\PC-08\Desktop\이재성작업폴더\d3dx9Test\d3dx9Test\Triangle.cpp(15,26): error C2065: '__pd3dDevice': 선언되지 않은 식별자입니다.
-  WinMain.cpp
-  코드를 생성하고 있습니다...
