@@ -1,0 +1,9 @@
+﻿  WinMain.cpp
+D3DApp.obj : error LNK2019: Direct3DCreate9"public: long __cdecl CD3DApp::InitD3D(struct HWND__ *)" (?InitD3D@CD3DApp@@QEAAJPEAUHWND__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+Triangle.obj : error LNK2019: D3DXMatrixRotationY"public: void __cdecl CTriangle::SetupMatrix(void)" (?SetupMatrix@CTriangle@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Triangle.obj : error LNK2019: D3DXMatrixLookAtLH"public: void __cdecl CTriangle::SetupMatrix(void)" (?SetupMatrix@CTriangle@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+Triangle.obj : error LNK2019: D3DXMatrixPerspectiveFovLH"public: void __cdecl CTriangle::SetupMatrix(void)" (?SetupMatrix@CTriangle@@QEAAXXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dxguid.lib : warning LNK4272: 'x86' 라이브러리 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.
+C:\Users\PC-08\Desktop\이재성작업폴더\d3dx9Test\x64\Debug\d3dx9Test.exe : fatal error LNK1120: 4개의 확인할 수 없는 외부 참조입니다.

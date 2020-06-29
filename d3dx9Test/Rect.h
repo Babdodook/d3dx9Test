@@ -5,15 +5,13 @@
 
 
 
-class CTriangle
-{
+class CRect {
 	LPDIRECT3DVERTEXBUFFER9 m_pVB;
 	LPDIRECT3DINDEXBUFFER9 m_pIB;
 	LPDIRECT3DDEVICE9	m_pd3dDevice;
-
 public:
-	CTriangle();
-	~CTriangle();
+	CRect();
+	~CRect();
 
 	void OnInit(LPDIRECT3DDEVICE9 _pd3dDevice);
 	void OnRender();

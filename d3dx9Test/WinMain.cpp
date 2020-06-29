@@ -1,5 +1,6 @@
 ﻿// d3dx9Test.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
+#pragma once
 
 #include "framework.h"
 #include "d3dx9Test.h"
@@ -111,7 +112,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
-      100, 100, 500, 500, nullptr, nullptr, hInstance, nullptr);
+      100, 100, 1000, 750, nullptr, nullptr, hInstance, nullptr);
 
    g_hWnd = hWnd;
 
